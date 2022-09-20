@@ -40,7 +40,7 @@ def runtxt(z):
 
 
 def helpnote():
-	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
+	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)")
 	subprocess.check_output(["am", "start", "https://github.com/irfan7732/test/blob/main/a.txt"])
 	exit(" [*] FACEBOOK :  https://www.facebook.com/irfan.7732")
 
@@ -50,7 +50,7 @@ def notice():
  
 
 	runtxt("\n\033[0;91mYOU ARE NOT PREMIUM USER ")
-	runtxt("\033[0;93m  SENT THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
+	runtxt("\033[0;93m  SENT THIS KEY TO ADMIN >> %s%s"))
 	runtxt("\033[0;92m ADMIN MESSENGER🔰RR-RIYAD")
 	subprocess.check_output(["am", "start", "https://m.me/abubockor.riad.7"])
 
@@ -92,7 +92,7 @@ class Main:
 				FG = '\033[0;90m'
 				GET = '\033[0;92m [P] GET PREMIUM'
 		except requests.exceptions.ConnectionError:
-			print("\n%s [!] NO INTERNET CONNECTION..\n"%(G))
+			print("\n%s [!] NO INTERNET CONNECTION..\n")
 			exit()
 		os.system("clear")
 		
@@ -129,8 +129,6 @@ def xyz():
     print(f"\033[1;91m========================================================")
     RAKIB= input("[√] CHOOSE : ")
    
-        
-#---------------------[PASS DEF]---------------------#
 def password():
     
     os.system("clear")
@@ -141,8 +139,7 @@ def password():
     print(f"{RED}[02] {WHITE} 2 PASSWORDS  {GREEN} [ FAST     ]")
     print(f"{RED}[03] {WHITE} 5 PASSWORDS  {GREEN} [ SLOW   🐌]")
     linex()
-    #---------------------[CLONING MAIN DEF]---------------------#
-#---------------------[PASS 1 CLONING MENU]---------------------#
+
 def password1():
     
     user=[]
@@ -266,7 +263,7 @@ def free1(uid,pwx,tl):
 
 
 
-#---------------------[PASS 2 CLONING MENU]---------------------#
+
 def password2():
     user=[]
     
@@ -383,7 +380,7 @@ def free2(uid,pwx,tl):
         checks(ok,cp)
     except:
         pass
-#---------------------[PASS 5 CLONING MENU]---------------------#
+
 def password5():
     user=[]
     
@@ -500,7 +497,7 @@ def free(uid,pwx,tl):
         checks(ok,cp)
     except:
         pass
-#---------------------[MAIN CLONING DEF 2]---------------------#
+
 
 
 def Tabii2():
@@ -616,6 +613,6 @@ def m(uid,pwx,tl):
 
 
 
-#---------------------[END MENU]---------------------#
+
 if __name__ == '__main__':
     xyz()
