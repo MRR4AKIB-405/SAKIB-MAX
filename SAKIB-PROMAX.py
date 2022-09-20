@@ -128,10 +128,8 @@ def xyz():
     print(f"")
     print(f"\033[1;91m========================================================")
     RAKIB= input("[√] CHOOSE : ")
-    
-    else:
-        print('\033[1;31mINCORECT OPTION!\033[1;31m')
-        xyz()
+   
+        
 #---------------------[PASS DEF]---------------------#
 def password():
     
